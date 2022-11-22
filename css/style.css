@@ -1,0 +1,550 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*************************
+*** E-school code start***
+*************************/
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .logo{
+    width: 150px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: black;
+    font-weight: 600;
+}
+.main-menu .btn-success{
+    background:#21B573;
+    color: white;
+    font-size: 16px;
+    padding: 8px 25px;
+    font-weight: 600;
+    border-radius: 35px;
+    margin: 0px 0px 0px 25px;
+    border: 1px solid #21B573;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FD511A;
+}
+.banner h1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+    margin: 0px 0px 20px;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.banner .btn-success{
+    background:#21B573;
+    color: white;
+    font-size: 16px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border-radius: 35px;
+    margin-top: 20px;
+    border: 1px solid #000; 
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.features{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background: #F8FFFB;
+}
+.inner-feature img{
+    width: 70px;
+    height: 90px;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #413960;
+    margin-bottom: 0px;
+}
+.inner-feature p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px; 
+    color: #585859;
+    margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+    width: 100%;
+    padding: 80px 0px;
+}
+.courses h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #413960;
+    text-align: center;
+    margin: 0px 0px 50px;
+}
+.courses .card{
+    width: 100%;
+    padding: 20px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px;
+    margin: 0px 0px 20px;
+}
+.courses .card .card-body{
+    padding: 15px 0px;
+}
+.courses .card .card-body h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #413960;
+    margin-bottom: 0px;
+}
+.courses .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    color: #585859;
+    margin: 0px 0px 10px;
+}
+.courses .card .card-body .btn-success{
+    background:#21B573;
+    color: white;
+    font-size: 16px;
+    padding: 8px 25px;
+    font-weight: 400;
+    border-radius: 35px;
+    margin: 10px 0px 15px;
+    border: 1px solid #21B573; 
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.courses .card .card-body .desc{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px; 
+    color: #585859; 
+    margin: 20px 0px 0px;
+}
+.courses .card .card-body .cln{
+    width: 18px;
+    margin: -5px 5px 0px 0px;
+}
+.courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 5px 0px 0px;
+}
+.testimonials{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonials h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #413960;
+    text-align: center;
+    margin: 0px 0px 50px;
+}
+.testimonials .img-round{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+.testimonials p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    color: black;
+    margin: 15px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 80px 0px 30px;
+    background: #282531;
+}
+.footer-widget{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.footer-widget p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: white;
+}
+.footer-widget h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+.footer-widget ul{
+    padding: 0px;
+}
+.footer-widget ul li{
+    list-style: none;
+}
+.footer-widget ul li a{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: white;
+}
+.footer-widget ul li a:hover, .footer-widget ul li a:focus{
+    color: #21B573;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #CDCDCD;
+}
+.copyright p a{
+    color: #CDCDCD;
+}
+.copyright p a:hover, .copyright p a:focus{
+    color: #21B573;
+}
+
+
+
+
+
+/**************************************
+**** Responsive Css Media Query *******
+**************************************/
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+   .main-menu .logo{
+    width: 140px;
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link{
+    margin: 0px 0px 0px 10px;
+   }
+   .main-menu .btn-success{
+    margin: 10px 0px 0px 10px;
+   }
+   .banner{
+    padding: 30px 0px;
+   }
+   .banner h5{
+    margin-left: 10px;
+   }
+   .banner h1{
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0px 0px 10px 10px;
+   }
+   .banner p{
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 10px;
+
+   }
+   .banner .btn-success{
+    font-size: 14px;
+    padding: 7px 20px;
+    margin: 0px 0px 0px 10px;
+   }
+   .features{
+    padding: 60px 0px;
+   }
+   .inner-feature{
+    margin-bottom: 15px;
+   }
+   .courses{
+    padding: 0px;
+   }
+   .courses h2{
+    font-size: 30px;
+    line-height: 40px;
+   }
+   .courses .card{
+    padding: 20px 15px 10px;
+   }
+   .courses .card .card-body h5{
+    font-size: 20px;
+    line-height: 30px;
+   }
+   .courses .card .card-body p{
+    font-size: 14px;
+    line-height: 24px;
+   }
+   .courses .card .card-body .btn-success{
+    font-size: 14px;
+   }
+   .testimonials{
+    padding: 30px 0px;
+   }
+   .testimonials h2{
+    font-size: 30px;
+    line-height: 40px;
+   }
+   .testimonials .img-round{
+    height: 70px;
+    width: 70px;
+   }
+   .testimonials p{
+    width: 95%;
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0px;
+   }
+   .footer{
+    padding: 50px 0px 20px;
+   }
+   .footer p{
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 10px;
+   }
+   .footer-widget{
+    padding: 0px 0px 30px;
+   }
+   .footer-widget h6{
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+   .footer-widget ul li a{
+    margin-left: 10px;
+    font-size: 12px;
+   }
+
+    
+  }
+
+ /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      margin: 0px 0px 0px 10px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link.active{
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .main-menu .btn-success{
+        margin: 20px 0px 0px 10px;
+        padding: 8px 30px;
+    }
+    .banner{
+        padding: 30px 0px;
+    }
+    .banner h5{
+        margin-left: 10px;
+       }
+       .banner h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0px 0px 10px 10px;
+       }
+       .banner p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 10px;
+    
+       }
+       .banner .btn-success{
+        font-size: 16px;
+        padding: 8px 25px;
+        margin: 0px 0px 0px 10px;
+       }
+       .inner-feature{
+        margin-bottom: 20px;
+       }
+       .courses{
+        padding: 0px;
+       }
+       .testimonials{
+        padding: 60px 0px;
+       }
+       .testimonials .img-round{
+        width: 90px;
+        height: 90px;
+       }
+       .testimonials p{
+        width: 85%;
+        margin: 0px;
+       }
+       .footer{
+        padding: 50px 0px 20px;
+       }
+       .footer p{
+        margin-left: 10px;
+       }
+       .footer-widget{
+        padding: 0px 0px 30px;
+       }
+       .footer-widget h6{
+        margin-left: 10px;
+        margin-top: 10px;
+       }
+       .footer-widget ul li a{
+        margin-left: 10px;
+       }
+    
+  }
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .inner-feature h4{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonials p{
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    
+    /* CSS */
+    .main-menu .navbar-light .navbar-nav .nav-link.active{
+        margin-left: 10px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        margin: 0px 0px 0px 10px;
+    }
+    .main-menu .btn-success{
+        margin: 20px 0px 0px 10px;
+    }
+    .inner-feature{
+        margin-bottom: 20px;
+    }
+    
+    
+  }
+   /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .inner-feature h4{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonials p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+  }
+  
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+ 
+  
+  
+  
+ 
